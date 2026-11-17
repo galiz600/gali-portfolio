@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Gali Zohar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+  :root{color-scheme:light;--ink:#000;--paper:#fff;--mute:#5c5c5c;--lilac:#d8c7ff;--lime:#e3fa8f;--sky:#bfe5ff;--peach:#ffcdbf}
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;min-height:100dvh;display:grid;place-items:center;padding:24px 16px;background:var(--paper);color:var(--ink);
+    font-family:"Instrument Sans","Helvetica Neue",Arial,sans-serif;-webkit-font-smoothing:antialiased}
+  main{max-width:640px;width:100%}
+  .bar{display:flex;height:8px;border-radius:999px;overflow:hidden;margin-bottom:40px;max-width:180px}
+  .bar i{flex:1}.bar i:nth-child(1){background:var(--lilac)}.bar i:nth-child(2){background:var(--sky)}.bar i:nth-child(3){background:var(--lime)}.bar i:nth-child(4){background:var(--peach)}
+  p.k{font:400 13px "JetBrains Mono",ui-monospace,Menlo,monospace;color:var(--mute);margin:0 0 16px}
+  h1{font-size:clamp(44px,9vw,88px);font-weight:600;letter-spacing:-.05em;line-height:.95;margin:0}
+  p.s{font-size:clamp(17px,2vw,20px);color:#262626;margin:24px 0 32px;max-width:480px}
+  a{display:inline-block;font:600 15px/1 inherit;color:var(--paper);background:var(--ink);text-decoration:none;padding:14px 22px;border-radius:999px}
+  @keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+  main>*{animation:rise .7s cubic-bezier(.2,.8,.2,1) both}main>*:nth-child(2){animation-delay:.06s}main>*:nth-child(3){animation-delay:.12s}main>*:nth-child(4){animation-delay:.18s}main>*:nth-child(5){animation-delay:.24s}
+  @media (prefers-reduced-motion:reduce){main>*{animation:none}}
+</style>
+</head>
+<body>
+<main>
+  <div class="bar" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+  <p class="k">galizohar.com</p>
+  <h1>Gali Zohar</h1>
+  <p class="s">My portfolio is getting a few updates and will be back soon. In the meantime, you can find me on LinkedIn.</p>
+  <a href="https://www.linkedin.com/in/gali-zohar-7b9471195/" target="_blank" rel="noopener">LinkedIn &rarr;</a>
+</main>
+</body>
+</html>
